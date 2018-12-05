@@ -1,0 +1,5 @@
+# Open Fastfile for docs & project configs
+
+# Do not change - fixed settings
+export_method "enterprise"
+output_directory "./fastlane/ipa"
