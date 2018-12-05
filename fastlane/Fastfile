@@ -127,8 +127,8 @@ platform :ios do
       puts "Deploying app to AppCenter..."
       appcenter_upload(
         api_token: appcenter_token,
-        owner_name: $APP_OWNER,
-        app_name: $APP_NAME,
+        owner_name: $APPCENTER_OWNER,
+        app_name: $APPCENTER_APP_NAME,
         group: $APPCENTER_GROUPS,
         ipa: "./fastlane/ipa/#{$APP_NAME}.ipa",
         dsym: "./fastlane/ipa/#{$APP_NAME}.app.dSYM.zip",
