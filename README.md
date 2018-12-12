@@ -32,7 +32,8 @@ We use [Carthage](https://github.com/Carthage/Carthage) for managing our depende
 
 - Reference the [Instrument/fastlane](https://github.com/Instrument/fastlane) docs for provisioning the project.
 - After setting up the `InstrumentConfig.rb` file, note that there are a few AppCenter specific values that are needed: `$APPCENTER_OWNER`, `$APPCENTER_APP_NAME` and `$APPCENTER_TOKEN`
-- You can create the appcenter project directly through the [AppCenter website](http://appcenter.ms) or you can let AppCenter create the project when you do your first build through fastlane.
+- You can create the AppCenter project directly through the [AppCenter website](http://appcenter.ms) or you can let AppCenter create the project when you do your first build through fastlane.
+- You can also manually build your IPA file from Xcode and drag it in directly to your AppCenter project.
 - AppCenter also provides simple ways to track events, bugs and crashes.
 
 ## Adding or updating Carthage dependencies
