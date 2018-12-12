@@ -21,11 +21,6 @@ or alternatively using `brew cask install fastlane`
 fastlane ios provision
 ```
 Join an existing project (passphrase required)
-### ios bump_build
-```
-fastlane ios bump_build
-```
-Bump build number and make a commit
 ### ios bump_patch_version
 ```
 fastlane ios bump_patch_version

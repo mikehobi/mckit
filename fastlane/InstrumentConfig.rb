@@ -26,7 +26,7 @@ $IOS_CI_BRANCH=""
 # Navigate to https://appcenter.ms.
 # Navigate to your app.
 # When you look at your app's URL, it is in the format https://appcenter.ms/users/{owner-name}/apps/{app-name}
-$APPCENTER_OWNER="apple-pro1" # Most likely "apple-pro1"
+$APPCENTER_OWNER="" # Most likely "apple-pro1"
 $APPCENTER_APP_NAME="iOS-Bootstrap" # IMPORTANT! Follow steps above to ensure correct app-name. This could differ from $APP_NAME.
 $APPCENTER_GROUPS="Instrument-Test"
 $APPCENTER_TOKEN="56642b1c306bb327ed188ff84ef091adf1fc8dff" # App Center Token

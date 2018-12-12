@@ -4,7 +4,11 @@ A bootstrap designed for programatic iOS apps. Storyboards and Xibs optional.
 
 ## Included Frameworks
 
-- [Snapkit](http://snapkit.io/docs/)
+We use [Carthage](https://github.com/Carthage/Carthage) for managing our dependencies. If a framework is not available through Carthage, the binaries can be added to the `./vendor` folder, don't forget to commit these!
+
+- [Snapkit](http://snapkit.io/docs/) (Carthage)
+- [Hero](https://github.com/HeroTransitions/Hero) (Carthage)
+- [AppCenter](https://github.com/Microsoft/AppCenter-SDK-Apple) (Binaries included in `./vendors`)
 
 ## Requires
 
@@ -14,15 +18,22 @@ A bootstrap designed for programatic iOS apps. Storyboards and Xibs optional.
   - You can install Carthage with Brew the easiest `brew install Carthage`
 - XCode 10+ with XCode dev tools installed in the command line (iOS 12 features)
 - [Fastlane](https://fastlane.tools/) - ([Installation Guide](https://github.com/Instrument/fastlane/blob/master/Install-Fastlane.md))
-- Developer on the [HockeyApp Nike (Demo)](https://rink.hockeyapp.net/manage/apps/699961)
+- Developer account on [AppCenter](https://appcenter.ms/)
 
 ## Quickstart
 
 1. Install Carthage if you haven't already
 2. Clone this repo
 3. Download and build the Carthage dependencies from the `ios` folder via Terminal: `carthage bootstrap --platform iOS` will build the dependencies _exactly_ as defined in Cartfile.resolved
-4. Follow the instructions [here](https://github.com/Instrument/fastlane/blob/master/Join-a-Project.md) for using fastlane to provision
-5. Open the project file in the `ios` directory
+4. [Rename the project](renaming-project.md)
+5. Follow the instructions [here](https://github.com/Instrument/fastlane/blob/master/Join-a-Project.md) for using fastlane to provision. Most of the fastlane files are already included.
+
+## AppCenter
+
+- Reference the [Instrument/fastlane](https://github.com/Instrument/fastlane) docs for provisioning the project.
+- After setting up the `InstrumentConfig.rb` file, note that there are a few AppCenter specific values that are needed: `$APPCENTER_OWNER`, `$APPCENTER_APP_NAME` and `$APPCENTER_TOKEN`
+- You can create the appcenter project directly through the [AppCenter website](http://appcenter.ms) or you can let AppCenter create the project when you do your first build through fastlane.
+- AppCenter also provides simple ways to track events, bugs and crashes.
 
 ## Adding or updating Carthage dependencies
 
