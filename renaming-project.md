@@ -1,3 +1,11 @@
+## Renaming Project via a Script
+
+We made a handy little script to help:
+
+1. Use homebrew to install rename and ack: `brew install rename ack`
+2. Open terminal and navigate inside the project directory
+3. run `./rename PROJECT_NAME_HERE` (you may see a message that says "Can't rename...", but don't worry!)
+
 ## Renaming Project Manually
 
 To rename the project manually, follow these steps:
@@ -34,10 +42,3 @@ https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode
 5. Do the same for `Product Identifier`
 
 
-## Renaming Project via a Script
-
-We've also included a handy little script:
-
-1. Use homebrew to install rename and ack: `brew install rename ack`
-2. Open terminal and navigate inside the project directory
-3. run `./rename YOURNAMEHERE` (you may see a message that says "Can't rename...", but don't worry!)
