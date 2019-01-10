@@ -1,4 +1,14 @@
-## Renaming Project
+## Renaming Project via a Script
+
+We made a handy little script to help:
+
+1. Use homebrew to install rename and ack: `brew install rename ack`
+2. Open terminal and navigate inside the project directory
+3. run `./rename PROJECT_NAME_HERE` (you may see a message that says "Can't rename...", but don't worry!)
+
+## Renaming Project Manually
+
+To rename the project manually, follow these steps:
 
 https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode-project-i-e-inclusive-of-folders
 
@@ -30,3 +40,5 @@ https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode
 3. Under packaging, you will see `Info.plist`, and `Product bundle identifier`
 4. Rename the top entry in `Info.plist`
 5. Do the same for `Product Identifier`
+
+
