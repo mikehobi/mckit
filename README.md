@@ -28,6 +28,9 @@ We use [Carthage](https://github.com/Carthage/Carthage) for managing our depende
 4. [Rename the project](renaming-project.md)
 5. Follow the instructions [here](https://github.com/Instrument/fastlane/blob/master/Join-a-Project.md) for using fastlane to provision. Most of the fastlane files are already included.
 
+Or use this handy script to clone, clean up, carthage install, and rename:
+https://gist.github.com/matthewward/81b5237f7833d57e3b6e512a9115d90e
+
 ## AppCenter
 
 - Reference the [Instrument/fastlane](https://github.com/Instrument/fastlane) docs for provisioning the project.
