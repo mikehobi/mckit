@@ -10,7 +10,6 @@ import UIKit
 import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
-import AppCenterPush
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        MSAppCenter.start("da67bfda-006c-4fd4-b8f8-36b41237ca94", withServices: [MSAnalytics.self, MSCrashes.self, MSPush.self])
+        MSAppCenter.start("da67bfda-006c-4fd4-b8f8-36b41237ca94", withServices: [MSAnalytics.self, MSCrashes.self])
         
         MSAnalytics.trackEvent("Booted App!")
 
