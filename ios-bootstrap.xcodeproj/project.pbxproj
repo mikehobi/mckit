@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3210DA2277B1A000F38963 /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3210D92277B1A000F38963 /* AppCenterPush.framework */; };
 		7E3C08AF21B852A50074CBD6 /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3C08AC21B852A50074CBD6 /* AppCenterCrashes.framework */; };
 		7E3C08B021B852A50074CBD6 /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3C08AD21B852A50074CBD6 /* AppCenter.framework */; };
 		7E3C08B121B852A50074CBD6 /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3C08AE21B852A50074CBD6 /* AppCenterAnalytics.framework */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E3210D92277B1A000F38963 /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterPush.framework; path = vendor/AppCenterPush.framework; sourceTree = "<group>"; };
 		7E3C08AC21B852A50074CBD6 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = vendor/AppCenterCrashes.framework; sourceTree = "<group>"; };
 		7E3C08AD21B852A50074CBD6 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = vendor/AppCenter.framework; sourceTree = "<group>"; };
 		7E3C08AE21B852A50074CBD6 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = vendor/AppCenterAnalytics.framework; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3210DA2277B1A000F38963 /* AppCenterPush.framework in Frameworks */,
 				7E3C08B321B854020074CBD6 /* Hero.framework in Frameworks */,
 				7E7C869C21B1F61F003F24DA /* SnapKit.framework in Frameworks */,
 				7E3C08B021B852A50074CBD6 /* AppCenter.framework in Frameworks */,
@@ -89,6 +92,7 @@
 		7E7C869A21B1F61F003F24DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E3210D92277B1A000F38963 /* AppCenterPush.framework */,
 				7E3C08B221B854020074CBD6 /* Hero.framework */,
 				7E3C08AD21B852A50074CBD6 /* AppCenter.framework */,
 				7E3C08AE21B852A50074CBD6 /* AppCenterAnalytics.framework */,
