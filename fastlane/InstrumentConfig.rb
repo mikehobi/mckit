@@ -3,19 +3,19 @@
 #####################################################################################
 
 # The bundle identifier set in Xcode app target general settings
-$BUNDLE_ID="com.instrumentInHouse.ios-bootstrap"
+$BUNDLE_ID="com.instrumentInHouse.mckit"
 
 # The Xcode app target name
-$APP_NAME="ios-bootstrap"
+$APP_NAME="mckit"
 
 # XCode scheme name - usually same as app name
-$SCHEME_NAME="ios-bootstrap"
+$SCHEME_NAME="mckit"
 
 # xcworkspace file path from root - leave blank unless using an Xcode workspace
 $WORKSPACE_PATH=""
 
 # xcodeproj file path from root - set this even when using a workspace
-$PROJECT_PATH = "ios-bootstrap.xcodeproj"
+$PROJECT_PATH = "mckit.xcodeproj"
 
 # relative path from inside the fastlane directory, leave blank if none
 $PACKAGE_JSON_PATH=""

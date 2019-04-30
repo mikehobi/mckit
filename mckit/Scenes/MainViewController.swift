@@ -1,6 +1,6 @@
 //
 //  MainViewController.swift
-//  ios-bootstrap
+//  mckit
 //
 //  Created by Mike Hobizal on 11/30/18.
 //  Copyright © 2018 Mike Hobizal. All rights reserved.

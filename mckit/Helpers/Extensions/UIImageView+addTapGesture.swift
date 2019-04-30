@@ -1,6 +1,6 @@
 //
 //  UIImage+addTapGesture.swift
-//  ios-bootstrap
+//  mckit
 //
 //  Created by Thomas Bruketta on 10/22/18.
 //  Copyright © 2018 Instrument Marketing. All rights reserved.

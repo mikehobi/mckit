@@ -1,6 +1,6 @@
 //
 //  AttributedText.swift
-//  ios-bootstrap
+//  mckit
 //
 //  Created by Christopher Lindor on 7/30/18.
 //  Copyright © 2018 Instrument Marketing. All rights reserved.

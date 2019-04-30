@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-find . -name 'ios-bootstrap*' -print0 | xargs -0 rename --subst-all 'ios-bootstrap' "$1"; find . -name 'ios-bootstrap*' -print0 | xargs -0 rename --subst-all 'ios-bootstrap' "$1"; ack --literal --files-with-matches 'ios-bootstrap' --print0 | xargs -0 sed -i '' "s/ios-bootstrap/$1/g"
+find . -name 'mckit*' -print0 | xargs -0 rename --subst-all 'mckit' "$1"; find . -name 'mckit*' -print0 | xargs -0 rename --subst-all 'mckit' "$1"; ack --literal --files-with-matches 'mckit' --print0 | xargs -0 sed -i '' "s/mckit/$1/g"

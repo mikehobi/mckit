@@ -14,22 +14,22 @@ https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode
 
 ### Step 1 - Rename the project
 
-1. Open `ios-bootstrap.xcodeproj`
-1. Click on the `ios-bootstrap` in the "Project navigator" on the left of the Xcode view.
-1. On the right select the "File inspector" and under "Identity and Type" you should see "Name: ios-bootstrap", change it to the new name and press enter.
+1. Open `mckit.xcodeproj`
+1. Click on the `mckit` in the "Project navigator" on the left of the Xcode view.
+1. On the right select the "File inspector" and under "Identity and Type" you should see "Name: mckit", change it to the new name and press enter.
 1. A dropdown menu will pop up, click "Rename".
 
 ### Step 2 - Rename the Scheme
 
-1. In the top bar (near "Stop" button), there is a scheme for the `ios-bootstrap` product, click on it, then go to "Manage schemes"
-2. Click on `ios-bootstrap` in the scheme, and it will become editable, change the name
+1. In the top bar (near "Stop" button), there is a scheme for the `mckit` product, click on it, then go to "Manage schemes"
+2. Click on `mckit` in the scheme, and it will become editable, change the name
 
 ### Step 3 - Rename the folder with your assets
 
 1. Quit Xcode
-2. In the correctly named master folder, there is a newly named `xcodeproj` file with another `ios-bootstrap` folder. Rename this to your new name
+2. In the correctly named master folder, there is a newly named `xcodeproj` file with another `mckit` folder. Rename this to your new name
 3. Reopen the project, you will see a warning: "The folder OLD does not exist" (or something similar), dismiss the warning
-4. In the "Project navigator" on the left, click the top level `ios-bootstrap` folder name
+4. In the "Project navigator" on the left, click the top level `mckit` folder name
 5. In Utilities pane under "Identity and type" you will see the "Name" entry, change this from the OLD to the new name
 6. Just below there is a "Location" entry. If does not display the correct folder, then select the newly renamed folder (usually automatic)
 
