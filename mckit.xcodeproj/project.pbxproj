@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EB93650227A379D0019F15E /* McKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE0DF5922790BEC000A02C9 /* McKit.framework */; };
 		7EE0DF5E22790BEC000A02C9 /* McKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE0DF5C22790BEC000A02C9 /* McKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EE0DF6522790BF7000A02C9 /* McView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE0DF6422790BF7000A02C9 /* McView.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +24,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB93650227A379D0019F15E /* McKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
