@@ -9,7 +9,7 @@
 import UIKit
 
 public class McView: UIView {
-    init() {
+    public init() {
         super.init(frame: .zero)
         self.backgroundColor = .blue
     }
