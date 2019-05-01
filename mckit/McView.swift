@@ -8,7 +8,7 @@
 
 import UIKit
 
-class McView: UIView {
+public class McView: UIView {
     init() {
         super.init(frame: .zero)
         self.backgroundColor = .blue
