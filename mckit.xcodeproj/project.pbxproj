@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7EAE3DE7227BAA31005D5CAA /* McLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE3DE6227BAA31005D5CAA /* McLabel.swift */; };
+		7EAE3DE9227BABDA005D5CAA /* McImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE3DE8227BABDA005D5CAA /* McImage.swift */; };
 		7EE0DF5E22790BEC000A02C9 /* McKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE0DF5C22790BEC000A02C9 /* McKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EE0DF6522790BF7000A02C9 /* McView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE0DF6422790BF7000A02C9 /* McView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7EAE3DE6227BAA31005D5CAA /* McLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = McLabel.swift; path = mckit/McLabel.swift; sourceTree = SOURCE_ROOT; };
+		7EAE3DE8227BABDA005D5CAA /* McImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McImage.swift; sourceTree = "<group>"; };
 		7EE0DF5922790BEC000A02C9 /* McKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = McKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE0DF5C22790BEC000A02C9 /* McKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = McKit.h; sourceTree = "<group>"; };
 		7EE0DF5D22790BEC000A02C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				7EE0DF5D22790BEC000A02C9 /* Info.plist */,
 				7EE0DF6422790BF7000A02C9 /* McView.swift */,
 				7EAE3DE6227BAA31005D5CAA /* McLabel.swift */,
+				7EAE3DE8227BABDA005D5CAA /* McImage.swift */,
 			);
 			path = McKit;
 			sourceTree = "<group>";
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7EE0DF5322790BEC000A02C9 /* Build configuration list for PBXProject "mckit" */;
+			buildConfigurationList = 7EE0DF5322790BEC000A02C9 /* Build configuration list for PBXProject "McKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAE3DE9227BABDA005D5CAA /* McImage.swift in Sources */,
 				7EAE3DE7227BAA31005D5CAA /* McLabel.swift in Sources */,
 				7EE0DF6522790BF7000A02C9 /* McView.swift in Sources */,
 			);
@@ -325,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7EE0DF5322790BEC000A02C9 /* Build configuration list for PBXProject "mckit" */ = {
+		7EE0DF5322790BEC000A02C9 /* Build configuration list for PBXProject "McKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EE0DF5F22790BEC000A02C9 /* Debug */,
