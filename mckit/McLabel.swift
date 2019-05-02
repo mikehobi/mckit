@@ -11,7 +11,7 @@ import UIKit
 open class McLabel: UILabel {
     public init() {
         super.init(frame: .zero)
-        self.backgroundColor = .red
+        self.backgroundColor = .yellow
     }
     
     required public init?(coder aDecoder: NSCoder) {
