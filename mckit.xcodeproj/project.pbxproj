@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7EE0DF5322790BEC000A02C9 /* Build configuration list for PBXProject "McKit" */;
+			buildConfigurationList = 7EE0DF5322790BEC000A02C9 /* Build configuration list for PBXProject "mckit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,6 +276,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = McKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +304,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = McKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7EE0DF5322790BEC000A02C9 /* Build configuration list for PBXProject "McKit" */ = {
+		7EE0DF5322790BEC000A02C9 /* Build configuration list for PBXProject "mckit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EE0DF5F22790BEC000A02C9 /* Debug */,
