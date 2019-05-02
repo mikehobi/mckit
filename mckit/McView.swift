@@ -11,7 +11,7 @@ import UIKit
 open class McView: UIView {
     public init() {
         super.init(frame: .zero)
-        self.backgroundColor = .red
+        self.backgroundColor = .green
     }
     
     required public init?(coder aDecoder: NSCoder) {
